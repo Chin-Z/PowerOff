@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+	xmlns:android="http://schemas.android.com/apk/res/android">
+	<CheckBoxPreference
+		android:key="pref_is_checked"
+		android:summary="开启"
+		android:title="启用状态"/>
+	<ListPreference
+		android:key="pref_week_states"
+		android:title="执行周期"
+		android:entries="@array/week_list"
+		android:entryValues="@array/week_value"/>
+	<EditTextPreference
+		android:key="pref_norma_value"
+		android:title="编辑备注"/>
+	
+	<CheckBoxPreference
+		android:key="pref_show_dialog"
+		android:title="弹窗提示"
+		android:summary="开启"/>
+		
+</PreferenceScreen>
+	
+	
+		
